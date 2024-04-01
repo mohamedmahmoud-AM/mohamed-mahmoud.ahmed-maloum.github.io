@@ -129,3 +129,17 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+table {
+  width: 100%;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: collapse; /* Use collapse to ensure borders are not separated */
+}
+
+td {
+  height: 100px; /* Example fixed height */
+  overflow: hidden; /* Hides content that overflows the cell's box */
+  /* or 'overflow: auto;' to add scrollbars to cells with too much content */
+}
